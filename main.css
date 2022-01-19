@@ -17,13 +17,13 @@ header {
     background-color: rgb(219, 159, 47);
     margin: 0rem;
     padding: 0rem;
-    position: top;
+    position: relative;
     width: 100%;
 }
 
 nav a {
     color: black;
-    font-size: 60px;
+    font-size: 42px;
     text-decoration: none;
 }
 
@@ -38,8 +38,8 @@ nav ul  {
 }
 
 nav li {
-    font-size: 40px;
-    display: inline;
+    font-size: 20px;
+    display: list-item;
     margin-right: 3rem
 }
 
@@ -55,17 +55,61 @@ main section {
     padding: 1rem;
 }
 
-.home image {
+.home-image  {
     float:left;
-    margin-right: 3rem;
-    width: 400px;
+    padding: right;
+    margin-right: 50px;
+    
 }
+
 footer {
     text-align: center;
     background-color: darkslategrey;
     padding: 1rem;
-    position: fixed;
+    float: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
+}
+
+.home-title {
+    font-size: 20;
+}
+
+.about {
+padding-top: 10%;
+padding-bottom: 10%;
+}
+.home-body{
+padding-top: 0%;
+text-size-adjust: 12px;
+font-style: normal;
+
+}
+.card{
+width: 25%;
+float: left;
+padding: 0 10px;
+padding-bottom: 10%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+margin-right: 5%;
+}
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container{
+padding: 2px 5%;
+}
+.contact{
+margin-top: 10%;
+font-size: 12px;
+float: relative;
+margin-top: 10%;
+}
+.projects{
+    margin-bottom: 10%;
+}
+.card-box{
+position: center;
 }

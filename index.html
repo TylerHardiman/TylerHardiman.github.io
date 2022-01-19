@@ -10,52 +10,83 @@
  <body>
     <header>
         <nav>
-            <a href=''>Tyler Hardimans Software Development Portfolio</a>
+            <a href=''>Software Development Portfolio of Tyler Hardiman</a>
             <ul>
-             <li>Home</li>
-             <li>About</li>
-             <li>Projects</li>
-             <li>Contact</li>
+              <li>
+             <a href="">Home</a>
+             <a href=".About me">About Me</a>
+             <a href="">Projects</a>
+             <a href="">Contacts</a>
+              </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class='home'> 
-            <img src='C:\Users\fulld\OneDrive\Desktop\DevCodeCamp\HTML and CSS from SCRATCH DEMO VIDEO\images\Portfolio Profile Pic.jpg' align='left' width='200' height='200' alt='Rubber Rick' 
-            <h1><strong><i> to Tylers Software Development Portfolio!</i></strong></h1>
-               <p>
-                There's a voice that keeps on calling me. 
-                Down the road, that's where I'll always be. 
-                Every stop I make, I make a new friend. 
-                Can't stay for long, just turn around and I'm gone again. 
-                Maybe tomorrow, I'll want to settle down, Until tomorrow, I'll just keep moving on.
-
-                Children of the sun, see your time has just begun, searching for your ways, through adventures every day. 
-                Every day and night, with the condor in flight, with all your friends in tow, you search for the Cities of Gold. 
-                
-                Ah-ah-ah-ah-ah… wishing for The Cities of Gold. 
-                Ah-ah-ah-ah-ah… some day we will find The Cities of Gold. 
-                Do-do-do-do ah-ah-ah, do-do-do-do, Cities of Gold. Do-do-do-do, Cities of Gold. 
-                Ah-ah-ah-ah-ah… some day we will find The Cities of Gold. 
+        <section class='home'>
+            <img class="home-image" src="PortfolioProfilePic.jpg" align='left' width='15%' height='auto' alt='Rubber Rick' 
+               <p class='home-title'>
+            <h1>Welcome to my Software Development Portfolio!</h1> 
                </p>
-        <section class='about'>
-            <h2>A little about myself!</h2>
+               <p class="home-body">
+	              My name is <strong>Tyler Hardiman</strong>, and I am 32 years old. I am a father to a little girl and boy!<br>
+                <br>
+                <strong>I have performed work with following programs:</strong>
+                Visual Studio Code, Adobe xD, MySQL, GitHub, GitBash.<br>
+                <br>
+                <strong>I have performed development work with following languages:</strong>
+                Python, MySQL, HTML, CSS, Django.<br>
+                <br>
+                Dev Code Camp graduation date is May 28th, 2022.<br>
+                <br>
+               </p>
+            
+        </section>
+        <section class='about me' id="About me"
+            <h2>About Me</h2>
                 <p>
-                A foo walks into a bar, 
-                takes a look around
-                and says,  "Hello World!".
+                  I love to spend my free time cooking, gardening, coding, reading on mycology and mushroom hunts, working out, gaming, fishing, or anything else that might pique my interest! 
+                  I worked as a refrigeration analyst for a fortune one hundred company for 6 years. Covid had different plans and I found myself on the career hunt unexpectedly with a child on the way. I started a small business called The Sticka Emporium which is still in operation since mid-2020. I had to sell my home and had a rare opportunity to pursue a lifelong I.T. interest as a career. I acquired funding and enrolled in DevCodeCamps full time, three month long Full Stack Programming camp!  
                 </p>
-        <section class='projects'>
-            <h3>Software Developement Projects</h3>
-                <p>
-                <li>Project</li> <li>Project</li> <li>Project</li>                        
-                </p>
-        <section class='contact'>
-            <h3>How to contact me!</h3>
-                <p>
-                <li>Email</li> <li>Phone</li> <li>Social</li> <li>Social</li> <li>Social</li>                        
-                </p> 
-            </section>
+        </section>
+        <div class="card-box">
+        </div>
+        <section class='softwaredevelopementprojects' id='Software Developement Projects'
+            <h3><strong><u>Software Developement Projects</u></strong>:</h3>             
+                    <div class="card">
+                        <img src="RvDCode.png" href="https://github.com/TylerHardiman/Robots-vs-Dinosaurs.git" alt="Robots-vs-Dinosaurs" style="width:100%" height="281px">
+                        <div class="container">
+                          <p><strong><u>Project</u>:</strong> Robots vs Dinosaurs</p>
+                          <p><strong><u>Language</u>:</strong> Python</p>
+                          <p><strong><u>Purpose</u>:</strong> Build a program in Python using Visual Studio Code that could have a Herd of three Dinosaurs with Attack Power attributes and a Fleet of three Robots with an importable weapon. Health of individual units was tracked during each turn, and players unit eliminated when health reached zero. Team wins when other team runs out of units. Game will properly display winner and end game.</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="Random Trip Gen.png" href="https://github.com/TylerHardiman/RandomTripGenerator" alt="Random-Trip-Generator" style="width:100%" height="281px">
+                        <div class="container">
+                          <p><strong><u>Project</u>:</strong> Random Trip Generator</p>
+                          <p><strong><u>Language</u>:</strong> Python</p>
+                          <p><strong><u>Purpose</u>:</strong> Build a program in Python using Visual Studio Code that allowed a user to randomly generate a trip from user input to different locations. Each selection would then loop into a set of four selections per set. Each set had five sub selections. You could reselect at any point and start over if desired. Program would display completed trip and allow user input to print trip or start over.</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="RPSLS.png" href="https://github.com/TylerHardiman/RPSLS" alt="Rock-Paper-Scissors-Lizard-Spock" style="width:100%" height="281px">
+                        <div class="container">
+                          <p><strong><u>Project</u>:</strong> Rack, Paper, Scissors, Lizard, Spock</p>
+                          <p><strong><u>Language</u>:</strong> Python</p>
+                          <p><strong><u>Purpose</u>:</strong> Build a program in Python using Visual Studio Code that allowed for Human vs Human or Human vs Ai. Rules were first player to two wins. You had a total of five selections and each selection would beat two of the five selections only. Game tracked wins and would auto select if Ai was opponent. Game would end battle loop and display winner once the win parameters were met. </p>
+                        </div>
+                      </div>                                   
+                </div>
+        </section>
+        <section class='Contact:' id='Ways to Contact:'
+          <div class = 'Contact'
+          <h4><strong><u> Ways to Contact me</u></strong>:</h4>
+            <p><strong><u>Email</u></strong>: FullDadMode89@gmail.com</p>
+            <p><strong><u>Phone</u></strong>: 1-863-513-4980</p>
+            <p><strong><u>Social Media</u></strong>: TBD</p>
+            </div>
+          </div>
+        </section>
     </main>
     <footer>
             <a href=''>Tyler Hardiman Coding Portfolio ©2022</a>
